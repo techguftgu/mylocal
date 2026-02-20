@@ -1,1 +1,255 @@
 "File1 Data" version1
+
+git push -u origin
+
+terminal
+https://learning.oreilly.com/interactive-lab/cka-prep-defining/9798341638228/lab/
+
+https://github.com/techguftgu/awesome-repository.git
+akash.k9925@gmail.com
+pw= Moon@110011
+
+cmd nslookup google.com
+turing.com
+
+Free -h, ls -h, df -Th
+--------------
+6-------------------Linux
+killercoda, login, playgrounds, ubuntu,  start
+
+apt search nginx
+apt install nginx
+apt list --installed
+cd /var/www/html, ls, Hemberger --- Traffic / ports
+80, 
+cat index.nginx-debian.html
+rm index.nginx-debian.html
+git clone past github
+git clone https://github.com/devopsinsiders/StreamFlix.git
+or
+
+cd /home
+cd ubuntu/, ls
+git clone https://github.com/devopsinsiders/StreamFlix.git
+ls, StreamFlix, cd StreamFlix, ls 
+
+cp -r /home/ubuntu/StreamFlix/* /var/www/html
+cd /var/www/html, ls
+
+------------------------------
+https://github.com/devopsinsiders/github-mahasangram-tf-code.git
+
+cp -r /home/ubuntu/github-mahasangram-tf-code//* /var/www/html
+cd /var/www/html
+ls
+========================THREE TIER SITE
+Frontend = HTML, CSS.JS, React, Angular, Vite, IOS, Android, NextJS
+(Frontend)IDE Tools= vs code
+
+Backend = .NET, Java, Python, Go, Rust etc..
+(Backend)IDE Tools= vs studio
+
+Database = MySQL, PostgreSQL, MongoDB,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===================================
+---------------------------------
+sudo su, yum update -y
+sudo yum install git -y
+git, which git, git -v, --version
+git config --global user.name "avinash"
+git config --global user.email "akash.k9925@gmail.com"
+git config --list or 
+git config --global user.name
+git config --global user.email
+vi ~/.gitconfig
+ESC : wq, ctrl L = clears
+
+-----------------------------------
+mkdir mum, cd mum, git init
+cat >Mumbai, jai shree ram, ctrl d
+git status, git  add .
+git commit -m "my first file"
+git log
+git show (commit id)
+git remote add origin url
+git push -u origin master
+git pull -u origin master
+git commit -m "second file"
+git diff
+git checkout master -- *
+git log -1
+git log --online
+git remore --v
+git clone https://github.com/techguftgu/awesome-repository.git
+ls -ltr
+chmod 777 file1
+------------------------------14
+vi .gitignore
+*.css
+*.java
+git add .gitignore
+git commit -m :ignore file"
+git status
+touch file1.txt file3.java file4.css
+git status
+----------------------
+git log --grep "ignore"
+
+----------------------15
+git branch master
+git branch branch1
+git checkout branch1
+git checkout master
+git merge branch1  (in master)
+same file name branch merge then  CONFLICT
+git branch -M main	change the name
+git checkout
+git branch -M new_branch1
+git branch -M new_branch (change the master or branch name)
+git branch --delete newbranch
+git branch -d new-branch
+2 file for add *
+git add*
+----------------------------
+touch demofile, git add ., commit -m "demofile",
+git branch 	master
+vi demofile
+first code :wq
+git stash
+git stash list
+git stash apply stash@{1}
+git add . git commit -m
+git stash list
+git stash clear
+-------------------------------
+
+git add .
+git reset .
+git add .
+git reset --hard (deleted)
+
+------------------------------16
+git revert copy id
+---------------------
+git clean -n	(touch bb nn mm no info in this file)
+git clean -f
+git tag -a important -m "very important" 3b7f0b1
+git show important
+git tag -d important
+git diff
+git diff --cached
+git restore --staged .
+git restore .
+git add index.html
+git reset --soft or hard
+git log -p -2
+git log --stat file changes
+git log --oneline
+git show id code:index.html
+git log --grep="fix bug"
+git log --since="2025-01-01"
+git log --until
+git log --author="Avinash"
+git log --no-merges
+exit or Q
+=======================LINUX
+cp --help
+cp [OPTION]... [-T] SOURCE DEST
+cp file.txt rinky.txt
+touch file.txt
+nano	edit
+ctrl +S = save
+ctrl +x = exit
+
+CPU=Top, df -h, cd /var/www/html, cd user, date,
+mkdir devops, touch file1
+cp file1 devops/
+cp devops/devops-file.txt cloud
+ls cloud/=devops-file.txt
+cp -r cloud/devops/
+cd devops, devops, ls
+mv newfile.txt ../cloud/ 	(back copy to folder)
+rename for devops
+mv devops/ linux_for_devops
+count= this is my file
+wc myfile.txt
+cut -b 1-4 myfile.txt
+ans=this
+echo "hello" | tee
+echo "hello" | tee hello.txt
+diff hello.txt demofile.txt
+wc hello.txt demofile.txt
+ssh, cd Downloads/
+fuser .
+free -h
+vmstat -a 	free memory
+
+--------------------------------ADV LINUX
+uname = Linux
+uptime = 1 user active load
+whoami, which java, sudo reboot, id
+
+su avi  for (passwd change)
+sudo userdel avi  for (delete)
+
+1.cat >fi;e1, hello world, ctrl +d, cat file1
+cat >>file1, add ctrl +d, cat filename
+ls, ls -al
+chmod 777 any file
+R=4, W=2, X=1
+owner, group, user
+3,	3,	3
+tar -cvf mum.tar mum, ls
+gzip mum mum.tar .gz, or
+gzip mum mum.tar
+gunzip mum.tar.gz
+tar -xvf mum.tar
+cp file file1
+cp file1 all
+cat >all		(delete all content)
+
+==========================
+rm -rf *, in -s, pwd, ls,
+cd root
+cp file1 file2
+cat file2, mv file2 dir1,cat dir1, cd dir1, cd ..
+mv dir1 myfolder, cd myfolder, ls
+mkdir -p dir1/dir2/bir3
+grep root /etc/passwd
+
+yum remove httpd -y
+yum install httpd -y
+yum update httpd -y
+service httpd start
+chkconfig httpd on
+service httpd status
+which git
+whoami
+yum list installed
+ifconfig , hostname -i
+wget <url>, ls, copy url
+yum install 
+useradd riya
+cat /etc/passwd
+groupadd <name>
+cat /etc/group
+gpasswd -M name1 name2 name <group name>
+cat /etc/os-release
+
