@@ -7,7 +7,7 @@ https://learning.oreilly.com/interactive-lab/cka-prep-defining/9798341638228/lab
 
 https://github.com/techguftgu/awesome-repository.git
 akash.k9925@gmail.com
-pw= Moon@110011
+pw= 
 
 cmd nslookup google.com
 turing.com
